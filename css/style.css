@@ -9,7 +9,7 @@ body,
         display: flex;
         flex-direction: column;
         
-        transition: .2s ease-in-out;
+        transition: .35s ;
         font-family: 'Kumbh Sans', sans-serif;
         font-size: 12px;
         
@@ -71,10 +71,7 @@ body
         text-align: left;
         
         padding: 1rem 0;
-        /* margin-bottom: .75rem;
-        padding-bottom: .75rem;
-        margin-left: 1.5rem;
-        margin-right: 1.5rem; */
+        
         
                 
     }
@@ -98,7 +95,7 @@ body
 
 .answer__open
     {
-        max-height: 300px;
+        max-height: 10vh;
         font-weight: 400;
         color: hsl(240, 6%, 50%);
         margin-top: 1rem;
@@ -122,5 +119,10 @@ body
         margin-right: auto;
         margin-top: -106px;
         padding-right: 25px;
+        
+    }
+
+.bg-iamge::before 
+    {
         
     }
