@@ -84,7 +84,7 @@ body
 
 .answer
     {
-       max-height: 0;
+       height: 0;
        overflow: hidden;
        font-weight: 400;
        
@@ -95,7 +95,7 @@ body
 
 .answer__open
     {
-        max-height: 10vh;
+        height: 10vh;
         font-weight: 400;
         color: hsl(240, 6%, 50%);
         margin-top: 1rem;
@@ -122,7 +122,3 @@ body
         
     }
 
-.bg-iamge::before 
-    {
-        
-    }
