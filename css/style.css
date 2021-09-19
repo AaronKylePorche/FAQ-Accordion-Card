@@ -11,7 +11,7 @@ body,
         
         transition: .35s ;
         font-family: 'Kumbh Sans', sans-serif;
-        font-size: 12px;
+        font-size: 14px;
         
         
     }
@@ -43,7 +43,7 @@ body
 
 .question 
     {
-        font-size: 12px;
+        font-size: 14px;
         color: hsl(237, 12%, 33%);
     }
  
