@@ -1,0 +1,126 @@
+body,
+.drop-down-body,
+.question-container,
+.answer
+ 
+    {
+        
+        
+        display: flex;
+        flex-direction: column;
+        
+        transition: .2s ease-in-out;
+        font-family: 'Kumbh Sans', sans-serif;
+        font-size: 12px;
+        
+        
+    }
+body
+    {
+        background-image: linear-gradient(hsl(273, 75%, 66%),hsl(240, 73%, 65%));
+        background-repeat: no-repeat;
+        min-height: 100vh;
+
+        
+    }
+
+.drop-down-body
+    {
+        border-radius: 25px;
+        background-color: white;
+        min-height: 100%;
+        max-width: 480px;
+        margin: 7.5rem 1rem 0 1rem ;
+        padding-bottom: 2rem;
+        text-align: left;
+        position: relative;
+        
+
+        
+        
+    }
+
+
+.question 
+    {
+        font-size: 12px;
+        color: hsl(237, 12%, 33%);
+    }
+ 
+    .question:hover
+        {
+        color: hsl(14, 88%, 65%);
+        }
+
+.question-container-container
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        
+        
+    }        
+
+.question-container
+    {
+        cursor: pointer;
+        font-weight: 400;
+        border-bottom: 1px solid hsl(240, 5%, 91%);
+        max-width: 255px;
+        text-align: left;
+        
+        padding: 1rem 0;
+        /* margin-bottom: .75rem;
+        padding-bottom: .75rem;
+        margin-left: 1.5rem;
+        margin-right: 1.5rem; */
+        
+                
+    }
+
+    .question__active
+    {
+        font-weight: 700;
+        color: hsl(238, 29%, 16%)
+    }   
+
+.answer
+    {
+       max-height: 0;
+       overflow: hidden;
+       font-weight: 400;
+       
+       
+       
+       
+    }
+
+.answer__open
+    {
+        max-height: 300px;
+        font-weight: 400;
+        color: hsl(240, 6%, 50%);
+        margin-top: 1rem;
+        line-height: 1.5;
+        
+        
+        
+    }
+
+
+.faq {
+    text-align: center;
+    padding: 1rem;
+    font-size: 2rem;
+}
+
+.bg-image
+    {
+        display: block; 
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -106px;
+        padding-right: 25px;
+        
+    }
