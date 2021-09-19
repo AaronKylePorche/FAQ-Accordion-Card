@@ -11,7 +11,7 @@ body,
         
         transition: .35s ;
         font-family: 'Kumbh Sans', sans-serif;
-        font-size: 14px;
+        font-size: 13px;
         
         
     }
@@ -31,35 +31,29 @@ body
         min-height: 100%;
         max-width: 480px;
         margin: 7.5rem 1rem 0 1rem ;
-        padding-bottom: 2rem;
+        padding-bottom: 3rem;
         text-align: left;
-        position: relative;
-        
-
-        
+        position: relative;        
         
     }
 
 
 .question 
     {
-        font-size: 14px;
+        font-size: 13px;
         color: hsl(237, 12%, 33%);
     }
  
-    .question:hover
-        {
-        color: hsl(14, 88%, 65%);
-        }
+.question:hover
+    {
+    color: hsl(14, 88%, 65%);
+    }
 
 .question-container-container
     {
         display: flex;
         flex-direction: column;
-        align-items: center;
-        
-        
-        
+        align-items: center;        
     }        
 
 .question-container
@@ -69,10 +63,7 @@ body
         border-bottom: 1px solid hsl(240, 5%, 91%);
         max-width: 255px;
         text-align: left;
-        
-        padding: 1rem 0;
-        
-        
+        padding: 1rem 0;     
                 
     }
 
@@ -86,23 +77,18 @@ body
     {
        height: 0;
        overflow: hidden;
-       font-weight: 400;
-       
-       
-       
+       font-weight: 400;       
        
     }
 
 .answer__open
+   
     {
-        height: 10vh;
+        height: 100px;
         font-weight: 400;
         color: hsl(240, 6%, 50%);
         margin-top: 1rem;
-        line-height: 1.5;
-        
-        
-        
+        line-height: 1.5;        
     }
 
 
@@ -112,6 +98,7 @@ body
     font-size: 2rem;
 }
 
+
 .bg-image
     {
         display: block; 
@@ -119,6 +106,14 @@ body
         margin-right: auto;
         margin-top: -106px;
         padding-right: 25px;
+        position: relative;
+
         
+    }
+
+.bg-image::before 
+    {
+        background-image: url('../images/bg-pattern-mobile.svg');
+        background-size: 100%;
     }
 
