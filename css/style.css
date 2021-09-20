@@ -93,6 +93,11 @@ body
             width: auto;
             
         }
+    .arrow-rotate
+
+        {
+            transform: rotate(180deg);
+        }
 
     .question__active
     {
