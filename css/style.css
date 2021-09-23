@@ -6,6 +6,8 @@ body
         display: flex;
         justify-content: center;
         align-items: center;
+        color: hsl(237, 12%, 33%);
+        
     }
 
 .drop-down-body,
@@ -18,7 +20,7 @@ body
         display: flex;
         flex-direction: column;
         
-        transition: .35s ;
+        
         font-family: 'Kumbh Sans', sans-serif;
         font-size: 13px;
         
@@ -42,8 +44,8 @@ body
         max-width: 480px;
         min-width: 335px;
         margin: 1rem;
-        padding-bottom: 3rem;
-        text-align: left;
+        padding-bottom: 1rem;
+        
         position: relative;        
         
     }
@@ -51,21 +53,25 @@ body
 
 .question 
     {
-        font-size: 13px;
+        font-size: 14px;
         color: hsl(237, 12%, 33%);
-        display: block;
+        
     }
  
-.question:hover
+.question-container1:hover
     {
     color: hsl(14, 88%, 65%);
+    cursor: pointer;
+    }
+.answer1:hover
+    {
+        cursor: pointer;
     }
 
-.question-container-container
+.questions-container
     {
         display: flex;
-        flex-direction: column;
-        align-items: center;        
+               
     }        
 
 .question-container
@@ -79,13 +85,10 @@ body
         position: relative;   
                 
     }
-.spaceBetween 
-    {
-       display: flex;
-       justify-content: space-between;
+
        
-    }
-    .arrow
+    
+    .arrow1
         {
             
             display: block;
@@ -107,7 +110,7 @@ body
 
 .answer
     {
-       height: 0;
+       display:none ;
        overflow: hidden;
        font-weight: 400;       
        
@@ -116,6 +119,7 @@ body
 .answer__open
    
     {
+        display: block;
         height: 56px;
         font-weight: 400;
         color: hsl(240, 6%, 50%);
@@ -149,3 +153,53 @@ body
         background-size: 100%;
     }
 
+
+
+    .question-active
+        {
+            font-weight: 700;
+            margin-bottom: 1rem;
+            color: hsl(238, 29%, 16%);
+        }
+    
+    
+    
+    
+    .questions-container1
+        {
+            padding: 1rem;
+            
+        }
+    .question-container1
+    {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+        
+        
+        
+        
+    }
+.answer1 
+    {
+        overflow: hidden;
+        max-height: 0;
+        transition: max-height 0.2s ease-out;
+        margin: 0 2rem 0 0;
+        color: hsl(240, 6%, 50%);
+        
+        
+    }
+ 
+    
+
+
+.hr
+    {
+       border-width: 1px;
+       color: hsl(240, 5%, 91%);
+       margin: 1rem 0;
+       padding: 0;
+    }    
+    
