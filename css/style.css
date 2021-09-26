@@ -91,8 +91,10 @@ body
         {
             
             display: block;
-            height: 10px;
+            height: 7px;
             width: auto;
+            transition: 300ms;
+            
             
         }
     .arrow-rotate
@@ -167,9 +169,10 @@ body
     
     .questions-container1
         {
-            padding: 1rem;
+            padding: 0 2rem;
             
         }
+
     .question-container1
     {
         display: flex;
@@ -177,17 +180,20 @@ body
         align-items: center;
         
         
-        
-        
-        
     }
+
+.question1 {
+    padding: .5rem 0;
+}
+
 .answer1 
     {
         overflow: hidden;
         max-height: 0;
         transition: max-height 0.2s ease-out;
-        margin: 0 2rem 0 0;
+        margin: 0 2rem 1rem 0;
         color: hsl(240, 6%, 50%);
+
         
         
     }
@@ -198,8 +204,38 @@ body
 .hr
     {
        border-width: 1px;
-       color: hsl(240, 5%, 91%);
+       color: hsl(0, 0%, 100%);
        margin: 1rem 0;
        padding: 0;
+
     }    
     
+   
+
+   .bg-img {
+       background-image: url(../images/illustration-woman-online-mobile.svg), url(../images/bg-pattern-mobile.svg);
+       height: 196px ;
+       background-repeat: no-repeat;
+
+   }
+
+   .img-container {
+       position: relative;
+       height: 196px;
+       width:240px;
+       display: block;
+       margin-left: auto;
+       margin-right: auto;
+       margin-bottom: -103px;
+   }
+
+   .img {
+       position: absolute;
+       left: -28px;
+       top: -108px;
+   }
+   .shadow {
+       position: absolute;
+       top: 0px;
+
+   }
